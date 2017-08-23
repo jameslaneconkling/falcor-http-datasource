@@ -162,7 +162,7 @@ function _handleXhrError(observer, errorMessage, status) {
       message: errorMessage,
       status: status
     },
-    $expires: -1
+    $expires: -5000
   });
 }
 
